@@ -2,3 +2,30 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
+
+#drink-slider-nav-ul {
+	margin-left: 38.75%;
+	margin-bottom: 7%;
+}
+
+.hours {
+	margin-top: -3%;
+}
+
+.ls-wrapper, .ls-responsive,
+#drink-slider-wrapper {
+	max-width: 1000px;
+}
+
+.panel {
+	width: 1000px;
+}
+
+#menutab1 {
+
+}
+
+.section-header {
+	text-align: center;
+	font-size: 50px;
+}
