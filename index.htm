@@ -47,31 +47,39 @@
 
       $(function(){
         $('#drink-slider').liquidSlider({
+          dynamicArrows: false,
+          includeTitle: false,
+          dynamicTabsAlign: 'middle'
         });
       });
 
       $(function(){
         $('#eat-slider').liquidSlider({
+          dynamicArrows: false,
+          includeTitle: false,
+          dynamicTabsAlign: 'middle'
+        });
+      });
+
+      $(function(){
+        $('#about-slider').liquidSlider({
+          dynamicArrows: false,
+          includeTitle: false,
+          dynamicTabsAlign: 'middle'
         });
       });
     </script>
 
-    <div class="navbar-wrapper">
+    
       <div class="container">
 
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-fixed-top" role="navigation">
           <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#myCarousel">NOLBU gastropub YO</a>
+            <div class="logo">
+              <a href="#myCarousel">NOLBU</a>
             </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
+            <div class="nbar">
+              <ul>
                 <li><a href="#hours">HOURS</a></li>
                 <li><a href="#drinks">DRINKS</a></li>
                 <li><a href="#eats">EATS</a></li>
@@ -83,7 +91,6 @@
         </div>
 
       </div>
-    </div>
 
 
     <!-- Carousel
@@ -110,7 +117,6 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>Welcome to Nolbu</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             </div>
           </div>
         </div>
@@ -138,6 +144,50 @@
       <div id="hours" class="row">
         <div class="col-lg-12">
           <h2 class="hours section-header"><strong>HAPPY HOUR <span class="text-muted">&AMP; STUFF</span></strong></h2>
+          <div class="hours-content">
+
+            <div class="hours-left">
+              <h2 class="hours-head"><strong>OPEN</strong></h2>
+              <ul class="days">
+                <li><strong>MONDAY</strong></li>
+                <li><strong>TUESDAY</strong></li>
+                <li><strong>WEDNESDAY</strong></li>
+                <li><strong>THURSDAY</strong></li>
+                <li><strong>FRIDAY</strong></li>
+                <li><strong>SATURDAY</strong></li>
+                <li><strong>SUNDAY</strong></li>
+              </ul>
+              <ul class="times">
+                <li>closed</li>
+                <li>5:30pm-12am</li>
+                <li>5:30pm-12am</li>
+                <li>5:30pm-2am</li>
+                <li>5:30pm-2am</li>
+                <li>5:30pm-2am</li>
+                <li>5:30pm-11pm</li>
+              </ul>
+              <h2><strong>WHERE ARE WE?</strong></h2>
+              <div class="address-top">
+                <strong>4633 Convoy St<br>
+                San Diego, CA 92111</strong><br>
+                <span class="direction"><em>between Opportunity Rd & <br>Dagget St</em></span>
+              </div>
+            </div>
+            <div class="hours-right">
+              <h2 class="hours-head happyhour"><strong>HAPPY HOUR</strong><br><span class="day-dscpn"><em>Open - 7PM 2-4-1 on Drinks</em></span></h2>
+              <ul class="specials">
+                <li class="day"><strong>NOLBURTO'S TACO IPA TUESDAY</strong><br><span class="day-dscpn"><em>$2/Bulgogi Taco, 20% off India Pale Ales All Night</em></span></li>
+                <li class="day"><strong>WINGS WEDNESDAY</strong><br><span class="day-dscpn"><em>50% off Wings with purchase of drink till 9pm</em></span></li>
+                <li class="day"><strong>DERPY THIRSTDAY</strong><br><span class="day-dscpn"><em>25% off Somek Pitchers All Night</em></span></li>
+                <li class="day"><strong>FINALLY FRIDAY</strong><br><span class="day-dscpn"><em>$5 Kimchi Fried Rice after midnight</em></span></li>
+                <li class="day"><strong>PREGAME SATURDAY</strong><br><span class="day-dscpn"><em>50% off Large Soju Mixes 7-10pm</em></span></li>
+                <li class="day"><strong>RECOVERY SUNDAY</strong><br><span class="day-dscpn"><em>$5 Hite Bottles All Night</em></span></li>
+              </ul>
+            </div>
+
+            <div>
+            </div>
+          </div>
         </div><!-- /.col-lg-8 -->
       </div><!-- /.row -->
 
@@ -151,15 +201,60 @@
           <h2 class="section-header"><strong>DRINKS</strong></h2>
           <section class="liquid-slider" id="drink-slider">
             <div>
-              <h2 id="menutab1" class="title">Slide 1</h2>
+              <h2 id="menutab1" class="title">ON TAP</h2>
+              <div class="tap-left col-lg-6">
+                <h2><strong>DRAFT BEERS</strong></h2>
+                <ul class="beername">
+                  <li><strong>KARL STRAUSS</strong><br><span class="brand"><em>WINDANSEA WHEAT</em></span></li>
+                  <li><strong>STONE</strong><br><span class="brand"><em>GO TO IPA</em></span></li>
+                  <li><strong>BALLAST POINT</strong><br><span class="brand"><em>HABANERO SCULPIN IPA</em></span></li>
+                  <li><strong>BELCHING BEAVER</strong><br><span class="brand"><em>P.B. MILK STOUT</em></span></li>
+                  <li><strong>YONA YONA</strong><br><span class="brand"><em>AMERICAN PALE ALE</em></span></li>
+                  <li><strong>HITE</strong><br><span class="brand"><em>EURO PALE LAGER</em></span></li>
+                </ul>
+                <ul class="beerprice bp">
+                  <li><strong>5/PINT<br>16/PITCHER</strong></li>
+                  <li><strong>5/PINT<br>16/PITCHER</strong></li>
+                  <li><strong>5/PINT<br>20/PITCHER</strong></li>
+                  <li><strong>6/PINT<br>18/PITCHER</strong></li>
+                  <li id="yona"><strong>8/CAN<br></strong></li>
+                  <li><strong>6.99/22oz<br></strong></li>
+                </ul>
+              </div>
+              <div class="tap-right col-lg-6">
+                <h2><strong>SOJU</strong></h2>
+                <ul class="beername soju">
+                  <li><strong>SOJU</strong><br>
+                    <span class="brand cham"><em>CHAMISUL FRESH</em></span><br>
+                    <span class="brand cham"><em>CHAMISUL ORIGINAL</em></span><br>
+                    <span class="brand cham"><em>CHUMCHULUM</em></span></li>
+                  <li><strong>MAKGULU</strong></li>
+                  <li id="sake"><strong>SAKE</strong></li>
+                </ul>
+                <ul class="beerprice sojuprice">
+                  <li><strong>9.99</strong></li>
+                  <li id="makgulu"><strong>10.99</strong></li>
+                  <li><strong>8.99</strong></li>
+                </ul>
+
+                <h2 id="w"><strong>WINE</strong></h2>
+                <ul class="beername wine">
+                  <li><strong>HANGAR 24</strong><br><span class="brand"><em>HAMMERHEAD</em></span></li>
+                  <li><strong>ICHIKO SOCHU</strong><br><span class="brand"><em>SEIRIN</em></span></li>
+                </ul>
+                <ul class="beerprice wine">
+                  <li><strong>30.00</strong></li>
+                  <li><strong>40/BOTTLE<br>13/GLASS</strong></li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <h2 class="title">SPECIALTIES</h2>
               <p>Content</p>
             </div>
             <div>
-              <h2 class="title">Slide 2</h2>
-              <p>Content</p>
-            </div>
-            <div>
-              <h2 class="title">Slide 3</h2>
+              <h2 class="title">VIRGIN</h2>
               <p>Content</p>
             </div>
           </section>
@@ -189,7 +284,16 @@
       <div id="about" class="row featurette">
         <div class="col-lg-12">
           <h2 class="section-header"><strong>ABOUT US</strong></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <section class="liquid-slider" id="about-slider">
+            <div>
+              <h2 id="menutab3" class="title">Slide 1</h2>
+              <p>Content</p>
+            </div>
+            <div>
+              <h2 class="title">Slide 2</h2>
+              <p>Content</p>
+            </div>
+          </section>
         </div>
       </div>
 
@@ -198,7 +302,15 @@
       <div id="contact" class="row featurette">
         <div class="col-lg-12">
           <h2 class="section-header"><strong>CONTACT</strong></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <div class="col-lg-3 contact border">
+            <h4><strong>HOURS</strong></h4>
+          </div>
+          <div class="col-lg-3 border">
+            sdf
+          </div>
+          <div class="col-lg-3">
+            \sdf
+          </div>
         </div>
       </div>
 
@@ -218,7 +330,7 @@
 
 
     <!-- Bootstrap core JavaScript
-    ================================================== -->data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==
+    ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./home/jquery.min.js"></script>
     <script src="./home/bootstrap.min.js"></script>
