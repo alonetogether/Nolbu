@@ -25,7 +25,11 @@
   clear: both;
   overflow: auto;
   position: relative;
+<<<<<<< HEAD
+  /*margin-left: 7%;*/
+=======
   margin-left: 3%;
+>>>>>>> FETCH_HEAD
   margin-top: 5%;
 }
 .liquid-slider {
