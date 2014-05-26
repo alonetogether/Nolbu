@@ -153,6 +153,10 @@ body {
 	padding-top: 74px;
 }
 
+.row {
+	margin:auto !important;
+}
+
 .nbar {
 	float: right;
 	margin-right: 120px;
