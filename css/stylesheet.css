@@ -1,3 +1,30 @@
+.about-img {
+	display: block;
+	margin-left: 18%;
+}
+
+.about-left {
+	display: block;
+	margin-left: 135px;
+	margin-top: 30px;
+}
+
+.about-left p {
+	font-size: 17px;
+	text-align: left;
+	width: 335px;
+	line-height: 1.3em;
+}
+
+.about-quote h4 {
+	text-align: left;
+	line-height: 1.3em;
+	font-size: 22px;
+	margin-top: 28px;
+	margin-left: -35px;
+	width: 340px;
+}
+
 #about-slider-nav-ul {
 	margin-left: 42.5%;
 	margin-bottom: 7%;
@@ -65,6 +92,10 @@ body {
 	margin-left: -160px;
 }
 
+.dayofweek {
+	font-size: 20px;
+}
+
 .day-dscpn, .brand {
 	font-size: 14px;
 }
@@ -77,12 +108,16 @@ body {
 
 .day-dscpn li {
 	text-align: right;
-	padding-bottom: 15px;
+	padding-bottom: 16px;
+	font-size: 14px;
+	margin-left: -50px;
+	line-height: 1.6em;
 }
 
 .specials {
 	text-align: left;
 	margin-left: 130px;
+
 }
 
 .days, .times {
@@ -176,6 +211,10 @@ body {
 .section-header {
 	text-align: center;
 	font-size: 50px;
+}
+
+.special {
+	font-size: 15px;
 }
 
 .soju, .wine {
