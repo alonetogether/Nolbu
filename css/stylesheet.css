@@ -60,10 +60,20 @@ body {
 	font-size: 18px;
 	line-height: 1.2em;
 	padding-bottom: 17px;
+	text-align: left;
+	width: 220px;
+	margin-left: -250px;
 }
 
 .day-dscpn, .brand {
 	font-size: 14px;
+}
+
+.day-dscpn {
+	list-style: none;
+	text-align: right;
+	width: 250px;
+	float: right;
 }
 
 .days, .times {
@@ -115,6 +125,11 @@ body {
 	padding-right: 143px;
 }
 
+.hours-right {
+	float: right;
+	margin-right: 100px;
+}
+
 .ls-wrapper, .ls-responsive,
 #drink-slider-wrapper {
 	max-width: 1000px;
@@ -159,6 +174,7 @@ body {
 
 .specials {
 	list-style: none;
+	width: 200px;
 }
 
 .tab1, .tab2, .tab3 {
@@ -177,6 +193,35 @@ body {
 
 .tap-right h2 {
 	margin-top: 0px;
+}
+
+.tapas li, .tapas2 li {
+	list-style: none;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 22px;
+	line-height: .8em;
+}
+
+.tapas {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+.tapas-price li, .tapas-price2 li {
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.0em;
+	text-align: right;
+	padding-bottom: 18px;
+	padding-top: 1px;
+}
+
+.tapas-price {
+	margin-right: 50px;
+	padding-right: 115px;
+	border-right: 5px solid black;
+	margin-left: -20px;
 }
 
 #w {
