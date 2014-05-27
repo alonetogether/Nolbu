@@ -16,10 +16,24 @@ a:hover {
 	color:#9c0238;
 }
 
+strong {
+	color:#9c0238;
+}
+
+.sectiontitle{
+	font-family:'Droid Serif', serif;
+	text-transform:lowercase;
+	font-style:italic;
+}
+
+.navbar-fixed-top{
+	display:none;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	background:black;
+	background:#0a0a0a;
 }
 
 .ls-wrapper, .ls-responsive,
@@ -131,9 +145,10 @@ HAPPY HOUR
 .hours-left {
 	float: left;
 	margin-left: 4%;
-	border-right: 5px solid black;
+	border-right: 4px solid #555;
 	padding-right: 20px;
 	display: inline-block;
+	padding-bottom:40px;
 }
 
 .hours-right {

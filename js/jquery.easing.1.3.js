@@ -169,6 +169,27 @@ jQuery.extend( jQuery.easing,
 		if (t < d/2) return jQuery.easing.easeInBounce (x, t*2, 0, c, d) * .5 + b;
 		return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
 	}
+
+
+    $(function(){
+        
+        var menu = $('navbar-fixed-top'),
+          pos = menu.offset();
+          
+          $(window).scroll(function(){
+            if($(this).scrollTop() > pos.top+menu.height() && menu.hasClass('default')){
+              menu.fadeOut('fast', function(){
+                $(this).removeClass('default').addClass('fixed').fadeIn('fast');
+              });
+            } else if($(this).scrollTop() <= pos.top && menu.hasClass('fixed')){
+              menu.fadeOut('fast', function(){
+                $(this).removeClass('fixed').addClass('default').fadeOut('fast');
+                          console.log($(this).html());
+              });
+            }
+          });
+
+      });
 });
 
 /*
