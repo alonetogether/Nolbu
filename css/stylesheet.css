@@ -16,6 +16,10 @@ a:hover {
 	color:#9c0238;
 }
 
+.navbar-fixed-top{
+	display:none;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
