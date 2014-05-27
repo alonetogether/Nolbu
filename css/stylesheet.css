@@ -142,6 +142,7 @@ DRINKS
 	margin-left: -30px;
 	display: inline-block;
 	float: left;
+	width:70%;
 }
 
 .beername li {
@@ -246,15 +247,12 @@ DRINKS
 	line-height: 1.2em;
 }
 
-.specialty-left {
-	height: 480px;
-}
-
 .specialty-name {
 	margin-left: -30px;
 	display: inline-block;
 	float: left;
 	margin-top: 10px;
+	width: 70%;
 }
 
 .specialty-name li {
