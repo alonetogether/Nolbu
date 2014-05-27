@@ -172,8 +172,16 @@ DRINKS
 	line-height: .3em;
 }
 
+.cocktail {
+	width: 400px;
+}
+
+.drink-img {
+	margin-bottom: 50px;
+}
+
 #drink-slider-nav-ul {
-	margin-left: 34.5%;
+	margin-left: 22.5%;
 	margin-bottom: 7%;
 }
 
@@ -187,6 +195,25 @@ DRINKS
 
 .soju, .sojuprice {
 	margin-top: 30px;
+}
+
+.specialty-left {
+	height: 480px;
+}
+
+.specialty-name {
+	margin-left: -30px;
+	display: inline-block;
+	float: left;
+}
+
+.specialty-name li {
+	list-style: none;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 24px;
+	line-height: .8em;
+	width: 300px;
 }
 
 .tap-left {
@@ -221,7 +248,7 @@ DRINKS
 EATS
 ----------------------------------------*/
 #eat-slider-nav-ul {
-	margin-left: 42.5%;
+	margin-left: 31%;
 	margin-bottom: 7%;
 }
 
@@ -285,28 +312,65 @@ ABOUT
 }
 
 #about-slider-nav-ul {
-	margin-left: 42.5%;
+	margin-left: 31.5%;
 	margin-bottom: 7%;
-}
-
-.border {
-	border-right: 4px solid black;
 }
 
 
 /*--------------------------------------
 CONTACT
 ---------------------------------------*/
-.contact {
-	margin-left: 12%;
+.address-contact {
+	font-size: 18px;
 }
 
-.days-contact {
+.border {
+	border-right: 4px solid black;
+}
+
+.contact {
+	margin-left: 4.5%;
+}
+
+.contact, .location {
+	margin-top: 0px;
+	padding-top: 0;
+}
+
+.contact-head {
+	margin-bottom: 100px;
+}
+
+.days-contact, .times-contact {
 	list-style: none;
 	display: inline-block;
 	text-align: left;
-	font-size: 16px;
 	line-height: 1.2em;
+}
+
+.days-contact {
+	font-size: 16px;
+}
+
+.hours-title {
+	margin-left: 40px;
+}
+
+.location {
+	height: 200px;
+}
+
+.location h3 {
+	margin-bottom: 35px;
+}
+
+.number {
+	margin-top: 35px;
+	font-size: 20px;
+}
+
+.times-contact {
+	line-height: 1.4em;
 }
 
 
