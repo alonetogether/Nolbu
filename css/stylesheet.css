@@ -1,3 +1,262 @@
+/*--------------------------------------
+GLOBAL
+---------------------------------------*/
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.ls-wrapper, .ls-responsive,
+#drink-slider-wrapper {
+	max-width: 1000px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.nbar {
+	float: right;
+	margin-right: 120px;
+	margin-top: 33px;
+}
+
+.nbar li {
+	display: inline-block;
+	font-size: 16px;
+	padding-left: 35px;
+}
+
+.panel {
+	width: 1000px;
+}
+
+.row {
+	margin:auto !important;
+}
+
+.section-header {
+	text-align: center;
+	font-size: 50px;
+}
+
+.tab1, .tab2, .tab3 {
+	width: 200px;
+}
+
+/*------------------------------------
+HAPPY HOUR
+--------------------------------------*/
+.address-top {
+	font-size: 18px;
+	line-height: 1.2em;
+}
+
+.day {
+	font-size: 18px;
+	line-height: 1.2em;
+	padding-bottom: 17px;
+	text-align: left;
+	width: 220px;
+	margin-left: -160px;
+}
+
+.dayofweek {
+	font-size: 20px;
+}
+
+.days, .times {
+	list-style: none;
+	display: inline-block;
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.2em;
+	margin: 35px 17px 45px 0px;
+}
+
+.day-dscpn, .brand {
+	font-size: 14px;
+}
+
+.day-dscpn, .specials {
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.day-dscpn li {
+	text-align: right;
+	padding-bottom: 16px;
+	font-size: 14px;
+	margin-left: -50px;
+	line-height: 1.6em;
+}
+
+.direction {
+	font-size: 12px;
+}
+
+.happyhour {
+	line-height: .6em;
+	padding-bottom: 27px;
+}
+
+.hours {
+	margin-top: -3%;
+	margin-bottom: 80px;
+}
+
+.hours-head {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.hours-left {
+	float: left;
+	margin-left: 4%;
+	border-right: 5px solid black;
+	padding-right: 20px;
+	display: inline-block;
+}
+
+.hours-right {
+	display: inline-block;
+	margin-right: 100px;
+}
+
+.special {
+	font-size: 15px;
+}
+
+.specials {
+	text-align: left;
+	margin-left: 130px;
+
+}
+
+/*-----------------------------------------
+DRINKS
+------------------------------------------*/
+.beername {
+	margin-left: -30px;
+	display: inline-block;
+	float: left;
+}
+
+.beername li {
+	list-style: none;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 24px;
+	line-height: .8em;
+}
+
+.beerprice {
+	margin-right: 30px;
+}
+
+.beerprice li {
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.1em;
+	text-align: right;
+	padding-bottom: 18px;
+	padding-top: 1px;
+}
+
+.bp li {
+	margin-bottom: 7px;
+}
+
+.cham {
+	line-height: .3em;
+}
+
+#drink-slider-nav-ul {
+	margin-left: 34.5%;
+	margin-bottom: 7%;
+}
+
+#drink-slider-nav-ul li {
+	width: 200px;
+}
+
+#makgulu {
+	padding-top: 74px;
+}
+
+.soju, .sojuprice {
+	margin-top: 30px;
+}
+
+.tap-left {
+	border-right: 5px solid black;
+	height: 480px;
+}
+
+.tap-left h2 {
+	text-align: left;
+	margin: 0px 0px 40px 100px;
+}
+
+.tap-right h2 {
+	margin-top: 0px;
+}
+
+#w {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.wine {
+	padding-top: 40px;
+}
+
+#yona {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+/*---------------------------------------
+EATS
+----------------------------------------*/
+#eat-slider-nav-ul {
+	margin-left: 42.5%;
+	margin-bottom: 7%;
+}
+
+.tapas li, .tapas2 li {
+	list-style: none;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 22px;
+	line-height: .8em;
+}
+
+.tapas {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+.tapas-price li, .tapas-price2 li {
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.0em;
+	text-align: right;
+	padding-bottom: 18px;
+	padding-top: 1px;
+}
+
+.tapas-price {
+	margin-right: 50px;
+	padding-right: 115px;
+	border-right: 5px solid black;
+	margin-left: -20px;
+}
+
+/*--------------------------------------
+ABOUT
+---------------------------------------*/
 .about-img {
 	display: block;
 	margin-left: 18%;
@@ -30,103 +289,16 @@
 	margin-bottom: 7%;
 }
 
-.address-top {
-	font-size: 18px;
-	line-height: 1.2em;
-}
-
-.beername {
-	margin-left: -30px;
-	display: inline-block;
-	float: left;
-}
-
-.beername li {
-	list-style: none;
-	text-align: left;
-	padding-bottom: 20px;
-	font-size: 24px;
-	line-height: .8em;
-}
-
-.beerprice {
-	margin-right: 30px;
-}
-
-.beerprice li {
-	list-style: none;
-	font-size: 18px;
-	line-height: 1.1em;
-	text-align: right;
-	padding-bottom: 18px;
-	padding-top: 1px;
-}
-
 .border {
 	border-right: 4px solid black;
 }
 
-.bp li {
-	margin-bottom: 7px;
-}
 
-.cham {
-	line-height: .3em;
-}
-
+/*--------------------------------------
+CONTACT
+---------------------------------------*/
 .contact {
 	margin-left: 12%;
-}
-
-body {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-}
-
-.day {
-	font-size: 18px;
-	line-height: 1.2em;
-	padding-bottom: 17px;
-	text-align: left;
-	width: 220px;
-	margin-left: -160px;
-}
-
-.dayofweek {
-	font-size: 20px;
-}
-
-.day-dscpn, .brand {
-	font-size: 14px;
-}
-
-.day-dscpn, .specials {
-	list-style: none;
-	display: inline-block;
-	font-size: 16px;
-}
-
-.day-dscpn li {
-	text-align: right;
-	padding-bottom: 16px;
-	font-size: 14px;
-	margin-left: -50px;
-	line-height: 1.6em;
-}
-
-.specials {
-	text-align: left;
-	margin-left: 130px;
-
-}
-
-.days, .times {
-	list-style: none;
-	display: inline-block;
-	text-align: left;
-	font-size: 16px;
-	line-height: 1.2em;
-	margin: 35px 17px 45px 0px;
 }
 
 .days-contact {
@@ -137,159 +309,5 @@ body {
 	line-height: 1.2em;
 }
 
-.direction {
-	font-size: 12px;
-}
 
-#drink-slider-nav-ul {
-	margin-left: 34.5%;
-	margin-bottom: 7%;
-}
 
-#drink-slider-nav-ul li {
-	width: 200px;
-}
-
-#eat-slider-nav-ul {
-	margin-left: 42.5%;
-	margin-bottom: 7%;
-}
-
-.happyhour {
-	line-height: .6em;
-	padding-bottom: 27px;
-}
-
-.hours {
-	margin-top: -3%;
-	margin-bottom: 80px;
-}
-
-.hours-head {
-	margin-top: 0;
-	padding-top: 0;
-}
-
-.hours-left {
-	float: left;
-	margin-left: 4%;
-	border-right: 5px solid black;
-	padding-right: 20px;
-	display: inline-block;
-}
-
-.hours-right {
-	display: inline-block;
-	margin-right: 100px;
-}
-
-.ls-wrapper, .ls-responsive,
-#drink-slider-wrapper {
-	max-width: 1000px;
-}
-
-.logo {
-	display: inline-block;
-}
-
-#makgulu {
-	padding-top: 74px;
-}
-
-.row {
-	margin:auto !important;
-}
-
-.nbar {
-	float: right;
-	margin-right: 120px;
-	margin-top: 33px;
-}
-
-.nbar li {
-	display: inline-block;
-	font-size: 16px;
-	padding-left: 35px;
-}
-
-.panel {
-	width: 1000px;
-}
-
-.section-header {
-	text-align: center;
-	font-size: 50px;
-}
-
-.special {
-	font-size: 15px;
-}
-
-.soju, .wine {
-	/*margin-left: 1px;*/
-}
-
-.soju, .sojuprice {
-	margin-top: 30px;
-}
-
-.tab1, .tab2, .tab3 {
-	width: 200px;
-}
-
-.tap-left {
-	border-right: 5px solid black;
-	height: 480px;
-}
-
-.tap-left h2 {
-	text-align: left;
-	margin: 0px 0px 40px 100px;
-}
-
-.tap-right h2 {
-	margin-top: 0px;
-}
-
-.tapas li, .tapas2 li {
-	list-style: none;
-	text-align: left;
-	padding-bottom: 20px;
-	font-size: 22px;
-	line-height: .8em;
-}
-
-.tapas {
-	margin-left: 30px;
-	margin-right: 20px;
-}
-
-.tapas-price li, .tapas-price2 li {
-	list-style: none;
-	font-size: 18px;
-	line-height: 1.0em;
-	text-align: right;
-	padding-bottom: 18px;
-	padding-top: 1px;
-}
-
-.tapas-price {
-	margin-right: 50px;
-	padding-right: 115px;
-	border-right: 5px solid black;
-	margin-left: -20px;
-}
-
-#w {
-	margin-top: 10px;
-	text-align: center;
-}
-
-.wine {
-	padding-top: 40px;
-}
-
-#yona {
-	margin-top: 15px;
-	margin-bottom: 20px;
-}
