@@ -76,6 +76,7 @@ HAPPY HOUR
 
 .day-dscpn, .brand {
 	font-size: 14px;
+	line-height: 0.5em;
 }
 
 .day-dscpn, .specials {
@@ -174,6 +175,7 @@ DRINKS
 
 .cocktail {
 	width: 400px;
+	margin-left: 45px;
 }
 
 .drink-img {
@@ -189,12 +191,59 @@ DRINKS
 	width: 200px;
 }
 
+.float-price {
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.1em;
+	text-align: right;
+	padding-bottom: 18px;
+	padding-top: 1px;
+}
+
+.float-price li {
+	padding-bottom: 50px; 
+}
+
+.float-name {
+	margin-left: -30px;
+	display: inline-block;
+	float: left;
+	width: 400px;
+}
+
+.float-name li {
+	list-style: none;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 24px;
+	line-height: .8em;
+}
+
+#floats {
+	width: 100px;
+	margin-left: 190px;
+	margin-bottom: 20px;
+}
+
+#large-price {
+	padding-bottom: 0;
+	padding-top: 10px;
+}
+
 #makgulu {
 	padding-top: 74px;
 }
 
 .soju, .sojuprice {
 	margin-top: 30px;
+}
+
+.soju-size {
+	font-size: 18px;
+}
+
+.special-dscpn {
+	line-height: 1.2em;
 }
 
 .specialty-left {
@@ -205,15 +254,29 @@ DRINKS
 	margin-left: -30px;
 	display: inline-block;
 	float: left;
+	margin-top: 10px;
 }
 
 .specialty-name li {
 	list-style: none;
 	text-align: left;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	font-size: 24px;
 	line-height: .8em;
 	width: 300px;
+}
+
+.specialty-price {
+	margin-top: 23px;
+}
+
+.specialty-price li {
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.1em;
+	text-align: right;
+	padding-bottom: 55px;
+	padding-top: 1px;
 }
 
 .tap-left {
