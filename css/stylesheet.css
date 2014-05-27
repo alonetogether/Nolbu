@@ -1,6 +1,7 @@
 /*--------------------------------------
 GLOBAL
 ---------------------------------------*/
+
 a {
 	-o-transition:.3s;
 	-ms-transition:.3s;
@@ -11,6 +12,7 @@ a {
 	color:white;
 }
 
+
 a:hover {
 	text-decoration:none;
 	color:#9c0238;
@@ -20,14 +22,35 @@ strong {
 	color:#9c0238;
 }
 
+#containall{
+}
+
+.contain{
+	padding-bottom:100px;
+}
+.content{
+	width:auto;
+	margin-left:60px;
+}
+
+#contain2{
+	
+}
+
 .sectiontitle{
 	font-family:'Droid Serif', serif;
 	text-transform:lowercase;
 	font-style:italic;
+	letter-spacing:1.5px;
 }
 
 .navbar-fixed-top{
 	display:none;
+}
+
+.fixed{
+	position:fixed;
+	background:white;
 }
 
 body {
@@ -312,7 +335,7 @@ DRINKS
 }
 
 .tap-left {
-	border-right: 5px solid black;
+	border-right: 1px dotted #555;
 	height: 480px;
 }
 
@@ -416,7 +439,7 @@ EATS
 .tapas-price {
 	margin-right: 50px;
 	padding-right: 115px;
-	border-right: 5px solid black;
+	border-right: 1px dotted #555;
 	margin-left: -20px;
 }
 
@@ -464,7 +487,7 @@ CONTACT
 }
 
 .border {
-	border-right: 4px solid black;
+	border-right: 1px dotted #555;
 }
 
 .contact {
