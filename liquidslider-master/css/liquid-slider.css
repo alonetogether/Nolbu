@@ -31,7 +31,7 @@
   margin-top: 5%;
 }
 .liquid-slider {
-  background: #f2f2f2;
+  background: black;
   width: 600px;
   margin: 0 auto;
   float: left;
@@ -66,6 +66,7 @@
   width: 1100px;
   display: block;
   float: left;
+  background:black;
 }
 .panel-wrapper {  
   padding: 15px 40px;
@@ -78,23 +79,40 @@
   clear:both;
 }
 .ls-nav a {
-  background: #d8d8d8;
-  color: #333333;
-  margin-right: 1px;
+  background: black;
+  color: #9c0238;
+  margin-right: 0px;
   padding: 13px 10px;  
   outline:0;
   width: 190px;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
+  border-top: 3px solid #9c0238;
+  border-bottom: 3px solid #9c0238;
+  border-right: 3px solid #9c0238;
+  border-left: 3px solid #9c0238;
+   -moz-box-sizing:    border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing:         border-box;
 }
 .ls-nav a:hover {
-  background: #f2f2f2;
-  color: #333333;
+  background: #9c0238;
+  border-color:#9c0238;
+  color:black;
   text-shadow: none;
+  border-top: 3px solid #9c0238;
+  border-bottom: 3px solid #9c0238;
+  border-right: 3px solid #9c0238;
+
 }
 .ls-nav .current a {
-  background: #f2f2f2;
+  background: #9c0238;
+  border-top: 3px solid #9c0238;
+  border-bottom: 3px solid #9c0238;
+  border-right: 3px solid #9c0238;
+
+  color:black;
 }
 .currentCrossLink {
   font-weight: bold;
