@@ -230,6 +230,39 @@ DRINKS
 	margin-top: 0px;
 }
 
+.virgin-left {
+	height: 480px;
+	margin-left: 20%;
+}
+
+.virgin-name {
+	margin-left: -30px;
+	display: inline-block;
+	float: left;
+}
+
+.virgin-name li {
+	list-style: none;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 24px;
+	line-height: .8em;
+	width: 350px;
+}
+
+.virgin-price {
+	margin-right: 30px;
+}
+
+.virgin-price li {
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.1em;
+	text-align: right;
+	padding-bottom: 18px;
+	padding-top: 1px;
+}
+
 #w {
 	margin-top: 10px;
 	text-align: center;
@@ -250,6 +283,17 @@ EATS
 #eat-slider-nav-ul {
 	margin-left: 31%;
 	margin-bottom: 7%;
+}
+
+.eats-list {
+	margin-left: -40px;
+	margin-top: 40px;
+}
+
+.eats-list li {
+	display: inline-block;
+	list-style: none;
+	padding: 0px 10px;
 }
 
 .tapas li, .tapas2 li {
