@@ -497,8 +497,9 @@ EATS
 }
 
 .tapas-left {
-	margin-left: 40px;
-	margin-right: 50px;
+	padding-left:10px;
+	/*margin-left: 30px;*/
+	/*margin-right: 50px;*/
 }
 
 .tapas-price li, .tapas-price2 li {
