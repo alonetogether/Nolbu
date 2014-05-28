@@ -34,7 +34,8 @@ strong {
 }
 
 #contain2{
-	
+	/*background:url(drinksbg.jpg) top center no-repeat;*/
+	background-image: url(img/drinksbg.jpg);
 }
 
 .sectiontitle{
