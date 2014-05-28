@@ -81,7 +81,7 @@
 }
 .ls-nav a {
   background: rgba(15,15,15,0.6);
-  color: #9c0238;
+  color: #9c3302;
   margin-left: 0px;
   padding: 11px 6px;  
   outline:0;
@@ -89,29 +89,29 @@
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  border-top: 3px solid #9c0238;
-  border-bottom: 3px solid #9c0238;
-  border-right: 3px solid #9c0238;
-  border-left: 3px solid #9c0238;
+  border-top: 3px solid #9c3302;
+  border-bottom: 3px solid #9c3302;
+  border-right: 3px solid #9c3302;
+  border-left: 3px solid #9c3302;
    -moz-box-sizing:    border-box;
    -webkit-box-sizing: border-box;
    box-sizing:         border-box;
 }
 .ls-nav a:hover {
-  background: #9c0238;
-  border-color:#9c0238;
+  background: #9c3302;
+  border-color:#9c3302;
   color: rgba(15,15,15,0.5);
   text-shadow: none;
-  border-top: 3px solid #9c0238;
-  border-bottom: 3px solid #9c0238;
-  border-right: 3px solid #9c0238;
+  border-top: 3px solid #9c3302;
+  border-bottom: 3px solid #9c3302;
+  border-right: 3px solid #9c3302;
 
 }
 .ls-nav .current a {
-  background: #9c0238;
-  border-top: 3px solid #9c0238;
-  border-bottom: 3px solid #9c0238;
-  border-right: 3px solid #9c0238;
+  background: #9c3302;
+  border-top: 3px solid #9c3302;
+  border-bottom: 3px solid #9c3302;
+  border-right: 3px solid #9c3302;
 
   color:rgba(15,15,15,0.9);
 }

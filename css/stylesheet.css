@@ -25,11 +25,11 @@ a {
 
 a:hover {
 	text-decoration:none;
-	color:#9c0238;
+	color:#9c3302;
 }
 
 strong {
-	color:#9c0238;
+	color:#9c3302;
 }
 
 #containall{
@@ -81,6 +81,7 @@ strong {
 	position:absolute;
 	left:0;
 	margin-top:-10%;
+	z-index:-40;
 	/*top:-40px;*/
 	-webkit-filter: brightness(20%);
 	-o-filter: brightness(20%);
