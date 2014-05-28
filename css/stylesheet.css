@@ -468,7 +468,7 @@ EATS
 .entrees-left {
 	border-right: 1px dotted #ccc;
 	padding-right: 100px;
-	margin-left: -65px;
+	padding-left: -65px;
 }
 
 .entrees-right {
@@ -497,8 +497,8 @@ EATS
 }
 
 .tapas-left {
-	margin-left: 40px;
-	margin-right: 50px;
+	padding-left: 40px;
+	padding-right: 50px;
 }
 
 .tapas-price li, .tapas-price2 li {
@@ -614,6 +614,18 @@ ABOUT
 #about-slider-nav-ul {
 	margin-left: 34.5%;
 	margin-bottom: 7%;
+}
+
+.boss1 img {
+	float: left;
+}
+
+.boss2 img {
+	float: right;
+}
+
+.boss-box {
+	display: block;
 }
 
 
