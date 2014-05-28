@@ -36,9 +36,16 @@ strong {
 	margin-left:60px;
 }
 
-#contain2{
-	/*background:url("img/drinksbg.jpg") top center no-repeat;
-	background-image: url("img/drinksbg.jpg");*/
+#content2{
+}
+
+#contain2 img{
+	max-width:100%;
+	position:absolute;
+	left:0;
+	-webkit-filter: brightness(60%);
+	-o-filter: brightness(60%);
+	-moz-filter: brightness(60%);
 }
 
 .sectiontitle{
@@ -46,6 +53,7 @@ strong {
 	text-transform:lowercase;
 	font-style:italic;
 	letter-spacing:1.5px;
+	text-shadow:1px 2px 0px #000000;
 }
 
 .navbar-fixed-top{
