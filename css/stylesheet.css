@@ -160,6 +160,10 @@ HAPPY HOUR
 	margin-bottom: 80px;
 }
 
+.hours-content {
+	margin-left: 5%;
+}
+
 .hours-head {
 	margin-top: 0;
 	padding-top: 0;
@@ -236,12 +240,20 @@ DRINKS
 	margin-left: 45px;
 }
 
+#drinks {
+	margin-left: 3%;
+}
+
 .drink-img {
 	margin-bottom: 50px;
 }
 
+#drink-slider {
+	margin-left: 3%;
+}
+
 #drink-slider-nav-ul {
-	margin-left: 22.5%;
+	margin-left: 27%;
 	margin-bottom: 7%;
 }
 
@@ -398,8 +410,9 @@ DRINKS
 /*---------------------------------------
 EATS
 ----------------------------------------*/
+
 #eat-slider-nav-ul {
-	margin-left: 31%;
+	margin-left: 36%;
 	margin-bottom: 7%;
 }
 
@@ -417,6 +430,7 @@ EATS
 .entrees-left {
 	border-right: 1px dotted #ccc;
 	padding-right: 100px;
+	margin-left: -65px;
 }
 
 .entrees-right {
@@ -438,6 +452,15 @@ EATS
 .tapas {
 	margin-left: 30px;
 	margin-right: 20px;
+}
+
+.tapas2 {
+	width: 320px;
+}
+
+.tapas-left {
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .tapas-price li, .tapas-price2 li {
@@ -546,8 +569,12 @@ ABOUT
 	width: 340px;
 }
 
+#about-slider {
+	margin-left: 4%;
+}
+
 #about-slider-nav-ul {
-	margin-left: 31.5%;
+	margin-left: 36.5%;
 	margin-bottom: 7%;
 }
 
@@ -564,7 +591,7 @@ CONTACT
 }
 
 .contact {
-	margin-left: 4.5%;
+	margin-left: 7%;
 }
 
 .contact, .location {
@@ -574,6 +601,7 @@ CONTACT
 
 .contact-head {
 	margin-bottom: 100px;
+	margin-left: 6%;
 }
 
 .days-contact, .times-contact {
@@ -581,6 +609,7 @@ CONTACT
 	display: inline-block;
 	text-align: left;
 	line-height: 1.2em;
+	margin-left: 4%;
 }
 
 .days-contact {
