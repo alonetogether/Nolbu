@@ -33,7 +33,6 @@ strong {
 }
 .content{
 	width:auto;
-	margin-left: 5.5%;
 }
 
 #content2{
@@ -266,6 +265,10 @@ DRINKS
 
 #drink-slider {
 	margin-left: 3%;
+}
+
+#drink-slider-wrapper {
+	text-align: center;
 }
 
 #drink-slider-nav-ul {
