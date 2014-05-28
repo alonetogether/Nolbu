@@ -12,7 +12,8 @@ a {
 	-webkit-transition: .3s;
 	transition:.3s;
 	text-decoration:none;
-	color:white;
+	color:#555;
+	letter-spacing:0.5px;
 }
 
 
@@ -42,11 +43,19 @@ strong {
 	max-width:100%;
 	position:absolute;
 	left:0;
+	-webkit-filter: brightness(40%);
+	-o-filter: brightness(40%);
+	-moz-filter: brightness(40%);
+}
+
+#contain3 img{
+	max-width:100%;
+	position:absolute;
+	left:0;
 	-webkit-filter: brightness(60%);
 	-o-filter: brightness(60%);
 	-moz-filter: brightness(60%);
 }
-
 .sectiontitle{
 	font-family:'Droid Serif', serif;
 	text-transform:lowercase;
@@ -56,7 +65,8 @@ strong {
 }
 
 .navbar-fixed-top{
-	display:none;
+	background:rgba(15,15,15,0.6);
+	top:-20px;
 }
 
 .fixed{
