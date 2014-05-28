@@ -597,6 +597,7 @@ CONTACT
 .contact-img {
 	display: block;
 	margin-left: 26%;
+	padding-bottom: 3%;
 }
 .address-contact {
 	font-size: 18px;
