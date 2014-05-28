@@ -594,6 +594,10 @@ ABOUT
 /*--------------------------------------
 CONTACT
 ---------------------------------------*/
+.contact-img {
+	display: block;
+	margin-left: 26%;
+}
 .address-contact {
 	font-size: 18px;
 }
