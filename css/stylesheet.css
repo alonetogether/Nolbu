@@ -414,6 +414,19 @@ EATS
 	padding: 0px 10px;
 }
 
+.entrees-left {
+	border-right: 1px dotted #ccc;
+	padding-right: 100px;
+}
+
+.entrees-right {
+	height: 500px;
+}
+
+#hotplate {
+	padding-top: 16px;
+}
+
 .tapas li, .tapas2 li {
 	list-style: none;
 	text-align: left;
@@ -443,56 +456,64 @@ EATS
 	margin-left: -20px;
 }
 
-.noodles li {
+.noodles li, .soups li, 
+.rice li, .hot li {
 	list-style: none;
+	padding-bottom: 15px;
 }
 
-.noodle-item {
+.noodle-item, .noodle-price,
+.soup-item, .soup-price,
+.rice-item, .rice-price, 
+.hot-item, .hot-price {
 	display: inline-block;
 }
 
-.noodle-price {
-	display: inline-block;
+.noodle-item, .soup-item, .rice-item, .hot-item {
+	text-align: left;
+	font-size: 22px;
 }
 
-.soups li {
-	list-style: none;
+.noodle-price, .soup-price, .rice-price, .hot-price {
+	text-align: right;
+	font-size: 18px;
 }
 
-.noodle-soup {
-	display: inline-block;
+#rice2 {
+	padding-bottom: 20px;
 }
 
-.rice li {
-	list-style: none;
+#rice1 {
+	padding-bottom: 27px;
 }
 
-.rice-item {
-	display: inline-block;
+.rice-price, .soup-price {
+	vertical-align: top;
 }
 
-.rice-price {
-	display: inline-block;
-}
-	
-.soup-item {
-	display: inline-block;
+.rice-price li {
+	padding-bottom: 10px;
 }
 
-.soup-price {
-	display: inline-block;
+.noodle-price li, .hot-price li {
+	padding-top: 5px;
 }
 
-.hot li {
-	list-style: none;
+.soup-price li {
+	padding-bottom: 20px;
 }
 
-.hot-item {
-	display: inline-block;
+#soup1 {
+	padding-top: 5px;
+	padding-bottom: 50px;
 }
 
-.hot-price {
-	display: inline-block;
+#soup2 {
+	padding-top: 3px;
+}
+
+#soup3 {
+	padding-bottom: 50px;
 }
 
 /*--------------------------------------
