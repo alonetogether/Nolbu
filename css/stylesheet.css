@@ -33,7 +33,7 @@ strong {
 }
 .content{
 	width:auto;
-	margin-left:60px;
+	margin-left: 5.5%;
 }
 
 #contain2{
@@ -259,6 +259,10 @@ DRINKS
 	margin-left: 3%;
 }
 
+#drinks-head {
+
+}
+
 .drink-img {
 	margin-bottom: 50px;
 }
@@ -317,6 +321,15 @@ DRINKS
 
 #makgulu {
 	padding-top: 74px;
+}
+
+#price2 {
+	padding-bottom: 47px;
+}
+
+#price4 {
+	margin-top: -23px;
+	font-size: 16px;
 }
 
 .soju, .sojuprice {
