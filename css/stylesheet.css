@@ -54,7 +54,7 @@ strong {
 	-moz-filter: brightness(40%);
 }
 
-#contain3 img{
+#contain3 img {
 	max-width:100%;
 	position:absolute;
 	left:0;
@@ -672,8 +672,19 @@ ABOUT
 
 .boss-box {
 	display: block;
+	text-align: left;
+	margin-left: 25%;
 }
 
+.boss-box img {
+	width: 250px;
+	display: inline-block;
+	margin-left: 30%;
+}
+
+.boss-box p {
+	display: inline-block;
+}
 
 /*--------------------------------------
 CONTACT
