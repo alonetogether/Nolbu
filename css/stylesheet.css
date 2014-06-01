@@ -147,6 +147,10 @@ body {
 /*------------------------------------
 HAPPY HOUR
 --------------------------------------*/
+#contain1 {
+	margin-top:-3%;
+}
+
 .address-top {
 	font-size: 18px;
 	line-height: 1.2em;
@@ -203,8 +207,8 @@ HAPPY HOUR
 }
 
 .hours {
-	margin-top: -3%;
 	margin-bottom: 80px;
+	padding-top: 20px;
 }
 
 .hours-content {
@@ -291,8 +295,8 @@ DRINKS
 	margin-left: 3%;
 }
 
-#drinks-head {
-
+.drinks-head {
+	padding-top: 25px;
 }
 
 .drink-img {
@@ -474,6 +478,9 @@ DRINKS
 /*---------------------------------------
 EATS
 ----------------------------------------*/
+.eats-head {
+	padding-top: 20px;
+}
 
 #eat-slider-nav-ul {
 	margin-left: 35%;
@@ -607,6 +614,10 @@ EATS
 /*--------------------------------------
 ABOUT
 ---------------------------------------*/
+.about-head {
+	padding-top: 20px;
+}
+
 .about-img {
 	display: block;
 	margin-left: 18%;
@@ -685,6 +696,7 @@ CONTACT
 .contact-head {
 	margin-bottom: 100px;
 	margin-left: 6%;
+	padding-top: 20px;
 }
 
 .days-contact, .times-contact {
@@ -719,6 +731,4 @@ CONTACT
 .times-contact {
 	line-height: 1.4em;
 }
-
-
 
