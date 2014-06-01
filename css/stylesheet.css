@@ -679,11 +679,15 @@ ABOUT
 .boss-box img {
 	width: 250px;
 	display: inline-block;
-	margin-left: 30%;
 }
 
 .boss-box p {
 	display: inline-block;
+}
+
+.staff-box img {
+	text-align: center;
+	margin-left: 20%;
 }
 
 /*--------------------------------------
