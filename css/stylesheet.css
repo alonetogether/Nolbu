@@ -226,7 +226,7 @@ HAPPY HOUR
 
 .hours {
 	margin-bottom: 80px;
-	padding-top: 20px;
+	padding-top: 30px;
 }
 
 .hours-content {
@@ -315,7 +315,7 @@ DRINKS
 }
 
 .drinks-head {
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 .drink-img {
@@ -512,7 +512,7 @@ DRINKS
 EATS
 ----------------------------------------*/
 .eats-head {
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
 #eat-slider-nav-ul {
@@ -651,7 +651,7 @@ EATS
 ABOUT
 ---------------------------------------*/
 .about-head {
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
 .about-img {
@@ -747,7 +747,7 @@ CONTACT
 .contact-head {
 	margin-bottom: 100px;
 	margin-left: 6%;
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
 .days-contact, .times-contact {
@@ -782,4 +782,3 @@ CONTACT
 .times-contact {
 	line-height: 1.4em;
 }
-
