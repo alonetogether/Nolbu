@@ -126,6 +126,7 @@ body {
 
 .logo {
 	display: inline-block;
+	margin-left: -100px;
 }
 
 #logo {
@@ -331,7 +332,7 @@ DRINKS
 }
 
 #drink-slider-nav-ul {
-	margin-left: 24%;
+	margin-left: 22%;
 	margin-bottom: 7%;
 }
 
@@ -532,7 +533,7 @@ EATS
 }
 
 #eat-slider-wrapper {
-	margin-left: 9%;
+	margin-left: 8.5%;
 }
 
 .entrees-left {
@@ -549,16 +550,16 @@ EATS
 	padding-top: 16px;
 }
 
+.tapas {
+	margin-right: 4%;
+}
+
 .tapas li, .tapas2 li {
 	list-style: none;
 	text-align: left;
 	padding-bottom: 20px;
 	font-size: 22px;
 	line-height: .8em;
-}
-
-.tapas {
-	margin-left: 6%;
 }
 
 .tapas2 {
