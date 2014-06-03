@@ -230,7 +230,7 @@ HAPPY HOUR
 }
 
 .hours-content {
-	margin-left: 5%;
+	margin-left: 7.5%;
 }
 
 .hours-head {
@@ -265,7 +265,8 @@ HAPPY HOUR
 /*-----------------------------------------
 DRINKS
 ------------------------------------------*/
-.addon {
+.addon-price {
+	font-size: 14px !important;
 }
 
 .beername {
@@ -322,7 +323,7 @@ DRINKS
 }
 
 #drink-slider {
-	margin-left: 3%;
+	margin-left: 2%;
 }
 
 #drink-slider-wrapper {
@@ -330,7 +331,7 @@ DRINKS
 }
 
 #drink-slider-nav-ul {
-	margin-left: 26%;
+	margin-left: 24%;
 	margin-bottom: 7%;
 }
 
@@ -372,6 +373,11 @@ DRINKS
 	margin-bottom: 20px;
 }
 
+#ice-cream {
+	padding-top: 55px;
+	margin-bottom: -13px;
+}
+
 #large-price {
 	padding-bottom: 0;
 	padding-top: 10px;
@@ -379,6 +385,11 @@ DRINKS
 
 #makgulu {
 	padding-top: 74px;
+}
+
+#mojito {
+	padding-top: 30px;
+	padding-bottom: 28px;
 }
 
 #price2 {
@@ -390,8 +401,12 @@ DRINKS
 	font-size: 16px;
 }
 
-.soju, .sojuprice {
-	margin-top: 30px;
+.soju {
+	margin-top: 12px;
+}
+
+.sojuprice {
+	margin-top: 25px;
 }
 
 .soju-size {
@@ -443,7 +458,7 @@ DRINKS
 }
 
 .tap-right h2 {
-	margin-top: 0px;
+	margin-top: 20px;
 }
 
 .virgin-left {
@@ -501,7 +516,7 @@ EATS
 }
 
 #eat-slider-nav-ul {
-	margin-left: 35%;
+	margin-left: 31.5%;
 	margin-bottom: 7%;
 }
 
@@ -516,9 +531,13 @@ EATS
 	padding: 0px 10px;
 }
 
+#eat-slider-wrapper {
+	margin-left: 9%;
+}
+
 .entrees-left {
 	border-right: 1px dotted #ccc;
-	padding-right: 100px;
+	padding-right: 88px;
 	padding-left: -65px;
 }
 
@@ -539,8 +558,7 @@ EATS
 }
 
 .tapas {
-	margin-left: 30px;
-	margin-right: 20px;
+	margin-left: 6%;
 }
 
 .tapas2 {
