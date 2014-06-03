@@ -789,3 +789,49 @@ CONTACT
 .times-contact {
 	line-height: 1.4em;
 }
+
+#social-list {
+	padding-left:10px;
+}
+
+#social-list li {
+	display:inline-block;
+
+}
+
+#icon-btm-fb {
+	background-image:url(../img/facebook_64.png);
+	display:block;
+	height: 64px;
+	width: 64px;
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+	opacity: .5;
+}
+
+#icon-btm-fb:hover,  #icon-btm-insta:hover, #icon-btm-yelp:hover {
+	opacity:1;
+}
+
+#icon-btm-insta {
+	background-image:url(../img/instagram_64.png);
+	display:block;
+	height: 64px;
+	width: 64px;
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+	opacity: .5;
+}
+
+#icon-btm-yelp {
+	background-image:url(../img/yelp_64.png);
+	display:block;
+	height: 64px;
+	width: 64px;
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+	opacity: .5;
+}
