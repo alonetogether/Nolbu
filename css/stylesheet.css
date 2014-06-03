@@ -9,6 +9,8 @@ html{
 	float:left;
 	display:inline;
 	position:relative;
+	margin-left:-50px;
+	size:80%;
 }
 a {
 	-o-transition:.3s;
