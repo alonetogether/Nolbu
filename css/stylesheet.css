@@ -130,6 +130,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	background:#0a0a0a;
+	color: #666666 !important;
 }
 
 .ls-wrapper, .ls-responsive,
@@ -140,6 +141,10 @@ body {
 .logo {
 	display: inline-block;
 	margin-left: -100px;
+}
+
+.logo img {
+	margin-left: 15px;
 }
 
 #logo {
@@ -565,7 +570,7 @@ EATS
 
 .tapas {
 	margin-right: 10%;
-	margin-left: 5px;
+	margin-left: 15px;
 }
 
 .tapas li, .tapas2 li {
@@ -614,9 +619,12 @@ EATS
 	display: inline-block;
 }
 
+
+
 .noodle-item, .soup-item, .rice-item, .hot-item {
 	text-align: left;
 	font-size: 22px;
+	padding-left: 0px;
 }
 
 .noodle-price, .soup-price, .rice-price, .hot-price {
@@ -690,7 +698,7 @@ ABOUT
 .about-quote h4 {
 	text-align: left;
 	line-height: 1.5em;
-	font-size: 22px;
+	font-size: 25px;
 	margin-top: 28px;
 	margin-left: 80px;
 	width: 330px;
@@ -701,7 +709,7 @@ ABOUT
 }
 
 #about-slider-nav-ul {
-	margin-left: 34.5%;
+	margin-left: 32%;
 	margin-bottom: 7%;
 }
 
