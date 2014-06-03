@@ -5,6 +5,11 @@ html{
 	/*overflow:hidden;*/
 	}
 
+#patpic {
+	float:left;
+	display:inline;
+	position:relative;
+}
 a {
 	-o-transition:.3s;
 	-ms-transition:.3s;
@@ -25,12 +30,12 @@ a {
 
 a:hover {
 	text-decoration:none;
-	color:#9c3302 !important;
+	color:#9c3302 ;
 }
 
 a:active {
 	text-decoration:none;
-	color:#9c3302 !important;
+	color:#9c3302 ;
 }
 
 
