@@ -9,7 +9,7 @@ html{
 	float:left;
 	display:inline;
 	position:relative;
-	margin-left:-50px;
+	margin-left:0px;
 	size:80%;
 }
 a {
@@ -724,7 +724,7 @@ ABOUT
 .boss-box {
 	display: block;
 	text-align: left;
-	margin-left: 25%;
+	margin-left: 20%;
 }
 
 .boss-box img {
@@ -739,6 +739,22 @@ ABOUT
 .staff-box img {
 	text-align: center;
 	margin-left: 20%;
+}
+
+.pat-left {
+	padding-left: 0px;
+}
+
+.pat-right {
+	padding-left: 0px;
+	width: 37%;
+}
+
+.meet-pat {
+	text-align: center;
+	width: 85%;
+	margin-top: 2.5%;
+	margin-bottom: 4.5%;
 }
 
 /*--------------------------------------
