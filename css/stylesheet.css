@@ -28,6 +28,12 @@ a:hover {
 	color:#9c3302 !important;
 }
 
+a:active {
+	text-decoration:none;
+	color:#9c3302 !important;
+}
+
+
 strong {
 	color:#9c3302;
 }
