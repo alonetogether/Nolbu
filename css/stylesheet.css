@@ -27,6 +27,7 @@ a {
 	-webkit-filter: brightness(140%);
 	-o-filter: brightness(140%);
 	-moz-filter: brightness(140%);
+	background:none !important;
 
 }
 
@@ -156,7 +157,7 @@ body {
 .nbar {
 	float: right;
 	margin-right: 135px;
-	margin-top: 33px;
+	margin-top: 25px;
 }
 
 .nbar li {
