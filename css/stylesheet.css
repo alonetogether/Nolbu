@@ -5,6 +5,18 @@ html{
 	/*overflow:hidden;*/
 	}
 
+#backtotop {
+	width:25%;
+	height:25%;
+}
+
+#backtotop:hover{
+	-webkit-filter: brightness(140%);
+	-o-filter: brightness(140%);
+	-moz-filter: brightness(140%);
+	background:none !important;
+}
+
 #patpic {
 	float:left;
 	display:inline;
