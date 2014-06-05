@@ -32,7 +32,8 @@ a {
 
 a:hover {
 	text-decoration:none;
-	color:#9c3302 ;
+	background-color: #9c3302 !important;
+	color: rgba(15,15,15,0.82);
 }
 
 a:active {
@@ -123,7 +124,7 @@ strong {
 
 .fixed{
 	position:fixed;
-	background:white;
+	/*background:white*/
 }
 
 body {
@@ -887,7 +888,7 @@ CONTACT
 }
 
 .active a {
-	background-color: #eee;
-	color: #9c3302;
+	background-color: #9c3302;
+	color: rgba(15,15,15,0.82);
 }
 
