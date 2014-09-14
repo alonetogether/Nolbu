@@ -357,6 +357,7 @@ DRINKS
 
 #drink-slider {
 	margin-left: 2%;
+	margin: auto;
 }
 
 #drink-slider-wrapper {
@@ -364,8 +365,8 @@ DRINKS
 }
 
 #drink-slider-nav-ul {
-	margin-left: 23.25%;
 	margin-bottom: 7%;
+	display: inline-block !important;
 }
 
 #drink-slider-nav-ul li {
@@ -549,8 +550,8 @@ EATS
 }
 
 #eat-slider-nav-ul {
-	margin-left: 31.5%;
 	margin-bottom: 7%;
+	display: inline-block !important;
 }
 
 .eats-list {
@@ -562,11 +563,7 @@ EATS
 	display: inline-block;
 	list-style: none;
 	padding: 0px 10px;
-}
-
-#eat-slider-wrapper {
-	margin-left: 8.5%;
-}
+}	
 
 .entrees-left {
 	border-right: 1px dotted #ccc;
@@ -723,8 +720,8 @@ ABOUT
 }
 
 #about-slider-nav-ul {
-	margin-left: 32%;
 	margin-bottom: 7%;
+	display: inline-block !important;
 }
 
 .boss1 img {
@@ -841,7 +838,10 @@ CONTACT
 
 #social-list li {
 	display:inline-block;
+}
 
+#social-list li a:hover {
+	background-color:rgba(0,0,0,0) !important;
 }
 
 #icon-btm-fb {

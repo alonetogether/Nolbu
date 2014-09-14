@@ -27,7 +27,6 @@
   position: relative;
   margin:0 auto;
   /*margin-left: 7%;*/
-  margin-left: 7.5%;
   margin-top: 5%;
   overflow-x:hidden;
 }
@@ -59,13 +58,11 @@
   position: absolute;
   top: 0; 
   left: 0;
-  display: block;
 }
 
 /*** Panels ***/
 .liquid-slider .panel {  
   width: 1025px;
-  display: block;
   float: left;
   background:rgba(15,15,15,0.6);
 }
@@ -89,10 +86,7 @@
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  border-top: 3px solid #9c3302;
-  border-bottom: 3px solid #9c3302;
-  border-right: 3px solid #9c3302;
-  border-left: 3px solid #9c3302;
+  border: 3px solid #9c3302;
    -moz-box-sizing:    border-box;
    -webkit-box-sizing: border-box;
    box-sizing:         border-box;
@@ -119,10 +113,10 @@
   font-weight: bold;
 }
 .ls-nav ul {  
-  padding:0;
+  padding: 0;
   clear: both;
-  display: block;
   margin: auto;
+  text-align: center;
   overflow: hidden;
 }
 .ls-nav ul li {
