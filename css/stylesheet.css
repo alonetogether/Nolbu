@@ -365,7 +365,7 @@ DRINKS
 }
 
 #drink-slider-nav-ul {
-	margin-bottom: 7%;
+	margin-bottom: 2%;
 	display: inline-block !important;
 }
 
@@ -550,7 +550,7 @@ EATS
 }
 
 #eat-slider-nav-ul {
-	margin-bottom: 7%;
+	margin-bottom: 2%;
 	display: inline-block !important;
 }
 
@@ -691,6 +691,7 @@ ABOUT
 	display: block;
 	margin-left: 18%;
 	margin-bottom: 0.8%;
+	width: 550px;
 }
 
 .about-left {
@@ -720,7 +721,7 @@ ABOUT
 }
 
 #about-slider-nav-ul {
-	margin-bottom: 7%;
+	margin-bottom: 2%;
 	display: inline-block !important;
 }
 
