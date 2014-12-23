@@ -846,11 +846,10 @@ CONTACT
 }
 
 #icon-btm-fb {
-	background-image:url(../img/facebook_64.png);
+	/*background-image:url(../img/facebook_64.png);*/
 	display:block;
 	height: 64px;
 	width: 64px;
-	overflow:hidden;
 	text-indent:100%;
 	white-space:nowrap;
 	opacity: .5;
@@ -860,8 +859,12 @@ CONTACT
 	opacity:1;
 }
 
+#icon-btm-fb,  #icon-btm-insta, #icon-btm-yelp {
+	float:left;
+}
+
 #icon-btm-insta {
-	background-image:url(../img/instagram_64.png);
+	/*background-image:url(../img/instagram_64.png);*/
 	display:block;
 	height: 64px;
 	width: 64px;
@@ -872,7 +875,7 @@ CONTACT
 }
 
 #icon-btm-yelp {
-	background-image:url(../img/yelp_64.png);
+	/*background-image:url(../img/yelp_64.png);*/
 	display:block;
 	height: 64px;
 	width: 64px;
